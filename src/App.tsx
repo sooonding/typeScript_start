@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { AppProps, User } from './interfaces/interfaces';
+import Form from './components/Form';
 
 function App({ headerText, extraText }: AppProps) {
   /*
@@ -30,7 +31,7 @@ function App({ headerText, extraText }: AppProps) {
       {/* extraText는 상위에서 선언되지 않았지만 옵션 설정으로 인해 에러가 나지 않음 */}
       {extraText && <p>extraText</p>}
       <button onClick={fetchUser}>fetch user on Click</button>
-      {user && <p>{`Welcome ${user.name}`}</p>}
+      {user && <Form />}
     </>
   );
 }
