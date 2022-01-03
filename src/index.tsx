@@ -8,13 +8,6 @@ import TypeScript from './TypeScript';
 import InlineDocumentationJs from './InlineDocumentationJs';
 import InlineDocumentationTs from './InlineDocumentationTs';
 
-const address = {
-  street: 'Main st',
-  number: 22,
-  zip: 'AT15487',
-  suite: '#577',
-};
-
 ReactDOM.render(
   <React.StrictMode>
     {/* <Javascript /> */}
