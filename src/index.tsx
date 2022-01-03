@@ -17,11 +17,11 @@ const address = {
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
     {/* <Javascript /> */}
     {/* <TypeScript /> */}
     {/* <InlineDocumentationJs address={address} /> */}
-    <InlineDocumentationTs address={address} />
+    {/* <InlineDocumentationTs address={address} /> */}
+    <App headerText="This is a header" />
   </React.StrictMode>,
   document.getElementById('root')
 );
